@@ -5,15 +5,16 @@
         <meta name="viewpoint" content="width=device-width", initial-scale="1.0">
         <title>Abdulazeez Kareemot Olatundun</title>
         <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     </head>
     <body>
     <nav>
         <h2>Kareemot Tech</h2>
         <div class="links">
-            <a href="#">Home</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="#"><i class="fa-solid fa-code"></i>Skills</a>
+            <a href="#"><i class="fa-solid fa-laptop"></i>Projects</a>
+            <a href="#"><i class="fa-solid fa-address-book"></i>Contact</a>
         </div>
     </nav>
     <section class="hero">
@@ -72,12 +73,13 @@
     
     <section class="contact">
         <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="5a769ad1-60ff-4d0f-8034-7ed2a4da4e64">
+            <input type="text" placeholder="Your Name" name="name">
 
-            <input type="email" placeholder="Your Email">
+            <input type="email" placeholder="Your Email" name="email">
 
-            <textarea placeholder="Your Message"></textarea>
+            <textarea placeholder="Your Message" name="Message"></textarea>
           <button type="submit">Send Message</button>
         </form>            
     </section>
